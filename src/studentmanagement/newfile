@@ -1,0 +1,37 @@
+
+CLASS STUDENT
+- rollno:int
+- name:String
+- age:int
+- dob:String
+- class:String
+- subjects: Array<Subject>
+
++ getName()
++ getAge()
++ getDob()
++ getClass()
++ getMarks()
++ getPercentage()
++ getGrade()
+
++ getByName(String name)
++ getByAge(int age)
++ getByGrade(String grade)
+
+CLASS SUBJECT
+
+- mark: int
+- Sname: String
+- Sid: String
+- grade: String
+
+CLASS STUDENTMANAGEMENT
+
++ showAllStudents()
++ filter()
++ searchFilter()
++ updateRecord(rollno)
++ DeleteRecord(rollno)
++ getAvgPercentage()
++ getAvgMarks(rollno)
